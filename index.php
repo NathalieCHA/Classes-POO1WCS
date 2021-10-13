@@ -4,10 +4,10 @@
 
 require_once 'Bicycle.php';
 $bike = new Bicycle("blue");
-var_dump($bike);
+//var_dump($bike);
 
 $bike->setCurrentSpeed(0);
-var_dump($bike); 
+//var_dump($bike); 
 
 // Moving bike
 echo $bike->forward();
@@ -22,7 +22,7 @@ echo $bike->brake();
 require_once 'Car.php';
 
 $homerCar = new Car('pink', 5, 'Diesel');
-var_dump($homerCar);
+//var_dump($homerCar);
 
 // //Moving car
 echo $homerCar->start();
@@ -33,7 +33,7 @@ echo $homerCar->brake();
 echo "<br> Vitesse de la voiture : ' . {$homerCar->getCurrentSpeed()} . ' km/h' . '<br>";
 
 $margeCar = new Car('orange', 5, 'Essence');
-var_dump($margeCar);
+//var_dump($margeCar);
 
 //Moving car
 echo $margeCar->start();
@@ -44,7 +44,7 @@ echo $margeCar->brake();
 echo '<br> Vitesse de la voiture : ' . $margeCar->getCurrentSpeed() . ' km/h' . '<br>';
 
 $flandersCar = new Car('purple', 2, 'Diesel');
-var_dump($flandersCar);
+//var_dump($flandersCar);
 
 // //Moving car
 echo $flandersCar->start();
